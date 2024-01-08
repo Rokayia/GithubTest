@@ -1,0 +1,29 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+}
+.btn{
+    display: block;
+    font-size: 2rem;
+    padding: 25px 80px;
+    background-color: rgb(219, 186, 124);
+    margin: 150px auto 0 ;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    border: none;
+    box-shadow: 0 6px rgb(164, 131, 71) ;
+}
+
+.btn:active{
+    box-shadow: 0 0 rgb(164, 131, 71);
+    top: 6px;
+}
