@@ -1,0 +1,31 @@
+
+.container{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+.error{
+    display: none;
+    color:red;
+}
+.cont{
+  
+    width: 200px;
+}
+
+button{
+   background-color: orange;
+ 
+    width: 100px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}

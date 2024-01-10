@@ -6,10 +6,11 @@
 }
 body{
     height: 100vh;
-    background-color: #333;
+    background-color: aqua;
 }
 
-.generateur{
+
+div{
     margin: 50px;
     display: flex;
     align-items: center;
@@ -17,14 +18,7 @@ body{
     flex-direction: column;
     
 }
-.effetbtn{
-    margin: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-}
+
 
 a{
     margin: 20px;
