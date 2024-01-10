@@ -1,0 +1,58 @@
+*, ::before,  ::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+
+body{
+    background-color: rgb(26, 25, 25);
+}
+.container{ 
+    background-color: azure;
+    margin:250px 0;
+    display: flex;
+}
+.marquee{
+    font-size:120px;
+    font-family: sans-serif;
+    white-space: nowrap;
+    animation : marquee 20s infinite linear;
+}
+/*
+.marquee::after{
+    content: "LONDON - PARIS - SYDNEY - TOKYO - NEW YORK - BERLIN - ROME -";
+    background-color: brown;
+}*/
+@keyframes marquee{
+    from{
+        transform: translateX(0)
+    }
+    to{
+        transform: translateX(-50%)
+    }
+}
+
+
+
+
+
+
+/*
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation: slide 5s infinite alternate;
+}
+@keyframes slide{
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(calc(100vw - 200px));
+    }
+}*/
+
