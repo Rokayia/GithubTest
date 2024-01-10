@@ -1,0 +1,30 @@
+* {
+    margin: auto;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+  
+  #link {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .image {
+    padding-bottom: 10px;
+  }
+  
+  img {
+    width: 100%;
+    display: block;
+  }
+  
+  .info {
+    display: block;
+  }
+  
+  .info > p {
+    padding-bottom: 40px;
+  }
+  
