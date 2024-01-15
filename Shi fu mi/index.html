@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="text">
+        <h2>Jeu du Shi Fu Mi !</h2>
+        <h3>Régles du jeu</h3>
+        <div class="text_expli">
+
+            <p>Pour jouer il vous suffit de cocher la case qui correspond soit à papier, soit à caillou ou encore ciseaux. Une fois votre choix effectué, le résultat de la partie apparaitra dans l'encadré ci-dessous.
+            </p> 
+            <p>Les ciseaux l'emportent sur le papier, le caillou l'emporte sur les ciseaux et enfin le papier l'emporte sur la pierre.</p>
+            
+        </div>
+</header>
+
+</div>
+<div class="container">
+
+    <div class="bloc_papier">
+        <input type="checkbox" class="bt_case_joueur" id="ID_papier_j" data-choix="papier">
+        <img src="feuille.png" alt="">
+
+    </div>
+
+    <div class="bloc_caillou">
+        <input type="checkbox" class="bt_case_joueur" id="ID_caillou_j" data-choix="caillou">
+        <img src="pierre.png" alt="">
+
+        
+    </div>
+
+    <div class="bloc_ciseaux">
+        <input type="checkbox" class="bt_case_joueur" id="ID_ciseaux_j" data-choix="ciseaux">
+        <img src="ciseaux.png" alt="">
+
+
+    </div>
+
+<form class="form">
+    <input type="text" name="annonceur_resultat" id="annonceur" >
+</div>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
